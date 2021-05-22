@@ -15,7 +15,6 @@ from tempfile import NamedTemporaryFile
 import shutil
 import requests # for sending new block to other nodes
 
-# 20190605 /(YuRim Kim, HaeRi Kim, JongSun Park, BohKuk Suh , HyeongSeob Lee, JinWoo Song)
 from multiprocessing import Process, Lock # for using Lock method(acquire(), release())
 
 # for Put Lock objects into variables(lock)
@@ -81,7 +80,6 @@ def generateNextBlock(blockchain, blockData, timestamp, proof):
     return Block(nextIndex, previousBlock.currentHash, nextTimestamp, blockData, nextHash,proof)
 
 
-# 20190605 / (YuRim Kim, HaeRi Kim, JongSun Park, BohKuk Suh , HyeongSeob Lee, JinWoo Song)
 # /* WriteBlockchain function Update */
 # If the 'blockchain.csv' file is already open, make it inaccessible via lock.acquire()
 # After executing the desired operation, changed to release the lock.(lock.release())
