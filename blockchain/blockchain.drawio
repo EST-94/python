@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T14:37:17.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="kqNx94RqHIb2_Ex5Xsv3" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T08:32:21.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ZuW8-B2RhmXDvuh5WIue" version="14.7.5" type="github">
   <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
-    <mxGraphModel dx="2101" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" background="none" math="0" shadow="0">
+    <mxGraphModel dx="780" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -331,7 +331,7 @@
         <mxCell id="PHjYOECtbzAeJaCVC0Ml-73" value="/block/validateBlock" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="PHjYOECtbzAeJaCVC0Ml-72" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PHjYOECtbzAeJaCVC0Ml-74" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="21ea969265ad0168-28" edge="1" target="D7Xr076fDrkNId-XTe2z-1">
+        <mxCell id="PHjYOECtbzAeJaCVC0Ml-74" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="21ea969265ad0168-28" target="D7Xr076fDrkNId-XTe2z-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="650" as="sourcePoint" />
             <mxPoint x="600" y="645" as="targetPoint" />
@@ -726,22 +726,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-1" value="def newtx&lt;br&gt;(txToMining):&lt;br&gt;&lt;br&gt;read string which came&lt;br&gt;from external (mean url)&lt;br&gt;&lt;br&gt;newtxData[]" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;align=center;" vertex="1" parent="1">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-1" value="def newtx&lt;br&gt;(txToMining):&lt;br&gt;&lt;br&gt;read string which came&lt;br&gt;from external (mean url)&lt;br&gt;&lt;br&gt;newtxData[]" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="600" y="640" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-3" value="tx = txData(0, &#39;sender&#39;, &#39;amount, &#39;receiver, uuid.uuid4())&lt;br&gt;newtxData.append(tx)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-3" value="tx = txData(0, &#39;sender&#39;, &#39;amount, &#39;receiver, uuid.uuid4())&lt;br&gt;newtxData.append(tx)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="654" width="330" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-4" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="668.58" as="sourcePoint" />
             <mxPoint x="840" y="668.58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-5" value="transform data" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="D7Xr076fDrkNId-XTe2z-4">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-5" value="transform data" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="D7Xr076fDrkNId-XTe2z-4" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-6" value="" style="endArrow=classic;html=1;exitX=0.121;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-6" value="" style="endArrow=classic;html=1;exitX=0.121;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1066.9299999999998" y="700" as="sourcePoint" />
             <mxPoint x="1180" y="730" as="targetPoint" />
@@ -752,10 +752,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-7" value="if (len(newtxData)) &amp;lt; 5&lt;br&gt;&amp;amp;&amp;amp; writeTx() == 1" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="D7Xr076fDrkNId-XTe2z-6">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-7" value="if (len(newtxData)) &amp;lt; 5&lt;br&gt;&amp;amp;&amp;amp; writeTx() == 1" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="D7Xr076fDrkNId-XTe2z-6" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-8" value="" style="endArrow=classic;html=1;exitX=0.456;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D7Xr076fDrkNId-XTe2z-3">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-8" value="" style="endArrow=classic;html=1;exitX=0.456;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="D7Xr076fDrkNId-XTe2z-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="770" as="sourcePoint" />
             <mxPoint x="1180" y="770" as="targetPoint" />
@@ -764,10 +764,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-9" value="if (len(newtxData)) &amp;gt; 5" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="D7Xr076fDrkNId-XTe2z-8">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-9" value="if (len(newtxData)) &amp;gt; 5" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="D7Xr076fDrkNId-XTe2z-8" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-10" value="" style="endArrow=classic;html=1;exitX=0.198;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D7Xr076fDrkNId-XTe2z-3">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-10" value="" style="endArrow=classic;html=1;exitX=0.198;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="D7Xr076fDrkNId-XTe2z-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="910" y="810" as="sourcePoint" />
             <mxPoint x="1180" y="810" as="targetPoint" />
@@ -776,16 +776,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-11" value="if writeTx(newtxData) == 0" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="D7Xr076fDrkNId-XTe2z-10">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-11" value="if writeTx(newtxData) == 0" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="D7Xr076fDrkNId-XTe2z-10" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-12" value="return 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-12" value="return 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1180" y="720" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-13" value="print(&quot;tx exceeds limitation)&lt;br&gt;return -1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-13" value="print(&quot;tx exceeds limitation)&lt;br&gt;return -1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1180" y="750" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-14" value="print(&quot;file write error on txData&quot;)&lt;br&gt;return -2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-14" value="print(&quot;file write error on txData&quot;)&lt;br&gt;return -2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1180" y="795" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
