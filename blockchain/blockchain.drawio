@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-06-12T14:56:01.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="z6ENszbTwEcjjQII3Z-a" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-12T15:54:15.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="XMyN0DvVqVZQrW64ZhBE" version="14.7.6" type="github">
   <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
-    <mxGraphModel dx="1917" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" background="none" math="0" shadow="0">
+    <mxGraphModel dx="966" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-8" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="740" as="sourcePoint" />
+            <mxPoint x="1230" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gxKG5KSvoj4LGC8UMZM3-65" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" source="gxKG5KSvoj4LGC8UMZM3-26" target="gxKG5KSvoj4LGC8UMZM3-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1290" y="60" as="sourcePoint" />
@@ -752,7 +761,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D7Xr076fDrkNId-XTe2z-7" value="if (len(newtxData)) &amp;lt; 5&lt;br&gt;&amp;amp;&amp;amp; writeTx() == 1" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="D7Xr076fDrkNId-XTe2z-6" connectable="0" vertex="1">
+        <mxCell id="D7Xr076fDrkNId-XTe2z-7" value="if (len(newtxData)) &amp;lt; 5&lt;br&gt;&amp;amp;&amp;amp; &lt;span style=&quot;background-color: rgb(153 , 204 , 255)&quot;&gt;writeTx()&lt;/span&gt; == 1" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="D7Xr076fDrkNId-XTe2z-6" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D7Xr076fDrkNId-XTe2z-8" value="" style="endArrow=classic;html=1;exitX=0.456;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="D7Xr076fDrkNId-XTe2z-3" edge="1">
@@ -779,14 +788,43 @@
         <mxCell id="D7Xr076fDrkNId-XTe2z-11" value="if writeTx(newtxData) == 0" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="D7Xr076fDrkNId-XTe2z-10" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7Xr076fDrkNId-XTe2z-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="D7Xr076fDrkNId-XTe2z-12" value="return 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1180" y="720" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7Xr076fDrkNId-XTe2z-13" target="QLwjLKitC6FLCGk_Un5R-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D7Xr076fDrkNId-XTe2z-13" value="print(&quot;tx exceeds limitation)&lt;br&gt;return -1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1180" y="750" width="210" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7Xr076fDrkNId-XTe2z-14" target="QLwjLKitC6FLCGk_Un5R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D7Xr076fDrkNId-XTe2z-14" value="print(&quot;file write error on txData&quot;)&lt;br&gt;return -2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1180" y="795" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-3" value="tempdict.append(&quot;declined&quot;)" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="755" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-5" value="tempdict.append(&quot;declined&quot;)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="797.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-7" value="tempdict.append(&quot;accepted&quot;)" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="715" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QLwjLKitC6FLCGk_Un5R-9" target="QLwjLKitC6FLCGk_Un5R-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-9" value="def writeTx&lt;br&gt;(txRawData):&lt;br&gt;&lt;br&gt;txDataList []&lt;br&gt;txOriginalList []" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="850" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QLwjLKitC6FLCGk_Un5R-10" value="for txDatum in txRawData:&lt;br&gt;txList = [txDatum.commitYN, txDatum.sender, txDatum.amount, txDatum.receiver, txDatum.uuid]&lt;br&gt;txDataList.append(txList)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="885" width="530" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
