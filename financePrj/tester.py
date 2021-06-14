@@ -54,6 +54,13 @@ class reqHandler(BaseHTTPRequestHandler):
                     else:
                         tempDict.append("request failed, check ur status again.")
                         self.wfile.write(bytes(json.dumps(tempDict), "utf-8"))
+                        
+         else:
+            self.send_response(404)
+            self.send_header('Content-Type', 'application/json')
+            self.end_headers()
+
+        return
 
     def do_GET(self):
         print("request accepted, constructing result datas..")
